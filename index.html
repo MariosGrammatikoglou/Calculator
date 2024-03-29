@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myCalculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="calculator">
+		<input id="display" readonly>
+		<div id="keys">
+			<button onclick="showOnDisplay('+')"class="actionButton">+</button>
+			<button onclick="showOnDisplay('7')">7</button>
+			<button onclick="showOnDisplay('8')">8</button>
+			<button onclick="showOnDisplay('9')">9</button>
+			<button onclick="showOnDisplay('-')"class="actionButton">-</button>
+			<button onclick="showOnDisplay('4')">4</button>
+			<button onclick="showOnDisplay('5')">5</button>
+			<button onclick="showOnDisplay('6')">6</button>
+			<button onclick="showOnDisplay('*')"class="actionButton">*</button>
+			<button onclick="showOnDisplay('1')">1</button>
+			<button onclick="showOnDisplay('2')">2</button>
+			<button onclick="showOnDisplay('3')">3</button>
+			<button onclick="showOnDisplay('/')"class="actionButton">/</button>			
+			<button onclick="showOnDisplay('0')">0</button>
+			<button onclick="showOnDisplay('.')">.</button>
+			<button onclick="calculate()"class="actionButton">=</button>
+			<button onclick="clearDisplay()"class="actionButton">C</button>
+		</div>
+	</div>
+
+	<script src="index.js"></script> 
+</body>
+</html>
